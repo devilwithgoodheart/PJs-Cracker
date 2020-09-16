@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="pal" id="lavi">
+  <a href="index.html " >PJS</a>
+   <a href="login.html"id="dis">Login</a>
+  <a href="register.html">Register</a>
+  <a href="javascript:void(1);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("lavi");
+  if (x.className === "pal") {
+    x.className += " responsive";
+  } else {
+    x.className = "pal";
+  }
+}
+</script>
+<div class="log">
+    <div class="field">
+        <p>Enter Username:</p>
+        <input type="text" placeholder="Username" id="us">
+    </div>
+    <div class="field">
+        <p>Enter Password:</p>
+        <input type="Password" placeholder="Password" id="ps">
+    </div>  
+  <div class="btn">
+        <input type="submit" id="bn">
+    </div>
+   <p>Not Registered yet, <a href="register.html" id="re">Register</a></p>
+
+</div>
+
+<footer>
+  <div class="san">
+     <h3>CONTACT</h3>
+    <p>Address:Aryabhat Hostel Iet Lucknow<br>
+       U.P 226021<br>
+    Phone Number:8979576958<br>
+    Email :Sh2815633@gmail.com</p>
+  </div>
+   <div class="san" id="jay">
+    <h3>RECORDS</h3>
+    <div class="ri">
+      <h4>PASSWORD SAVED</h4>
+      <h5>+400M</h5>
+    </div>
+    <div class="ri" id="ya">
+      <h4>USER</h4>
+      <h5>+500M</h5>
+    </div>  
+   </div>
+   <div class="san" id="sin">
+    <h3>MENU</h3>
+     <a href="login.html">Login</a>
+     <a href="register.html">Register</a>
+   
+  </div>
+  <div >
+    <h2 id="jo"> CREATED WITH HATE </h2>
+  </div>
+</footer>
+</body>
+</html>
